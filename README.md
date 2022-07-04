@@ -1,2 +1,1 @@
-# tindog-website
-Website for practice
+TinDog Starting Files
