@@ -1,30 +1,45 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-#title {
+h1, h2 ,h3, h4, h5, h6 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 900;
+}
+
+
+/* Containers  */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section {
     background-color: #ff4c68;
     color: #fff;
 }
 
-.container-fluid {
-    padding: 3% 15% 7%;
+.white-section {
+    background-color: #fff
 }
 
-h1 {
+/* Headings  */
+
+.big-heading {
     font-family: 'Montserrat-Black', sans-serif;
     font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
 }
 
-h2 {
-    font-family: 'Montserrat-Bold', sans-serif;
+.section-heading {
     font-size: 3rem;
-    font-weight: 900;
     line-height: 1.5;
 }
-
 
 /* Navigation bar */
 
@@ -55,6 +70,13 @@ h2 {
 }
 
 
+/* Title section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
 /* Title Image */
 
 .title-image {
@@ -68,15 +90,12 @@ h2 {
 /* Features Section */
 
 #features {
-    padding: 7% 15%;
-    background-color: #fff;
     position: relative;
     /* z-index: 1; Since the feature section is below title sectiion, the feature section stacks on top of title section   */
 }
 
 .feature-item {
     padding: 4.5%;
-    text-align: center;
 }
 
 .feature-icon {
@@ -89,8 +108,6 @@ h2 {
 }
 
 .feature-title {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-weight: bold;
     font-size: 1.5rem;
 }
 
@@ -103,8 +120,11 @@ h2 {
 
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
-    text-align: center;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -113,16 +133,11 @@ h2 {
     margin: 20px;
 }
 
-.carousel-item { 
-    padding: 7% 15%;
-}
-
 
 /* Press Section */
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -136,13 +151,16 @@ h2 {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-column {
     padding: 3% 2%;
 }
 
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
 /* For mobile to laptop transition */
 
@@ -159,29 +177,9 @@ h2 {
 }
 
 
-/* Call to Action Section  */
-
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-    padding: 7% 15%;
-    text-align: center;
-}
-
-.cta-heading {
-    font-family: 'Montserrat-Black', sans-serif;
-    font-size: 3.5rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
-
-
-
 /* Footer section */
 
 #footer {
-    background-color: #fff;
-    text-align: center;
     padding: 7% 14%;
 }
 
